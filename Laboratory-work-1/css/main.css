@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:display=swap" rel="stylesheet');
+* {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	font-family: 'Baloo Tammudu 2', cursive;
+    color: #ccded1;
+}
+.table{
+    width: 100%;
+    height: 100vh;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+.data-cell{
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1em;
+    width: 25%;
+}
+.menu-cell{
+    padding: 1em 2em;
+    background-color: #223a6e;
+    word-spacing: 1em;
+    height: 20.6%;
+}
+a {
+    color: #10ad10;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 0.1em;
+}
+#my-links a{
+    color: #060055;
+}
+img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+map {
+    display: inline;
+}
+ol, ul {
+	padding: 0.5em 3em 0.1em;
+}
+.table > thead, .table > tfoot{
+    background-color: #0a1836;
+}
+.table > thead > tr > td h1, .table > tfoot > tr > td p{
+    float: left;
+    height: 15vh;
+}
+.table > tfoot > tr > td h1, .table > thead > tr > td p{
+    float: right;
+    height: 15vh;
+}
+.table > tfoot > tr > td h1, .table > thead > tr > td h1,
+.table > tfoot > tr > td p, .table > thead > tr > td p{
+    display: inline;
+    padding: 1em 1em;
+}
+.table > tfoot > tr > td p, .table > thead > tr > td p{
+    padding: 2.5em 1em;
+}
+#cell-data4{
+    height:60%;
+    width: 50%;
+}
+#cell-data6{
+    padding: 1em;
+    background-color: #6daac9;
+}
+#cell-data6  p{
+    color: black;
+    text-align: center;
+}
