@@ -19,6 +19,7 @@ table,tr,td{
     background-repeat: no-repeat;
     padding: 1em;
     width: 25%;
+    text-align: center;
 }
 .menu-cell{
     padding: 1em 2em;
@@ -44,7 +45,11 @@ map {
     display: inline;
 }
 ol, ul {
-	padding: 0.5em 3em 0.1em;
+    padding: 0.5em 3em 0.1em;
+    text-align: center;
+}
+li{
+    text-align: left;
 }
 .table > thead, .table > tfoot{
     background-color: #0a1836;
