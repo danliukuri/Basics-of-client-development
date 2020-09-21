@@ -65,6 +65,9 @@ ol, ul {
 .table > tfoot > tr > td p, .table > thead > tr > td p{
     padding: 2.5em 1em;
 }
+.table > thead > tr > td h1{
+    text-align: center;
+}
 #cell-data4{
     height:60%;
     width: 50%;
