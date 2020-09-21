@@ -46,7 +46,7 @@ map {
 }
 ol, ul {
     padding: 0.5em 3em 0.1em;
-    text-align: center;
+    display: table; margin:0 auto;
 }
 li{
     text-align: left;
