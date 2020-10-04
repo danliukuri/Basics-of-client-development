@@ -9,7 +9,7 @@ html, body{
 }
 body{
     display: grid;
-    grid-template-rows: auto 70%;
+    grid-template-rows: 15% 70% 15%;
 }
 
 .color-text{
